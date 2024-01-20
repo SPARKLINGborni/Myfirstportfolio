@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.home {
+    background: url("myportbg.jpg");
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    padding: 15px 0px;
+}
+.navber{
+    margin-bottom: 30px;
+}
+nav { 
+    text-align: right;
+}
+ul {}
+ul li {
+    display: inline-block;
+    margin: 0 20px;
+    list-style: none;
+}
+ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+.header {
+    width: 400px;
+    margin: 200px auto;
+    background: #fff;
+    box-shadow: 3px 3px 0px 4px #333;
+    text-align: center;
+}
+
+.header h1 {
+    display: inline;
+}
+.header h1 span {
+    display: block;
+}
+.header p {
+    font-size: 2em;
+}
+
+/* about page  */
+.page-title {
+    margin-top: 40px;
+}
+.left-side {
+    float: left;
+    width: 60%;
+    text-align-last: left;
+    margin-top: 40px;
+    font-size: 16px;
+}
+.left-side h2 {
+    font-size: 2rem;
+    margin-top: 60px;
+}
+.about-img {
+    width: 35%;
+    text-align: right;
+}
+.strength-sec {
+    margin-top: 15px;
+}
+
+.list-sec {
+    margin: 0;
+    padding: 0;
+}
+.list-sec li {
+    display: block;
+}
+.list-sec a {
+    text-decoration: none;
+}
